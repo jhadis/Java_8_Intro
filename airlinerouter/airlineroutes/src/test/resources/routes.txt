@@ -1,0 +1,10 @@
+New York:Philadelphia
+New York:Miami
+Philadelphia:Miami
+New York:Chicago
+Chicago:Seattle
+Chicago:Portland
+Chicago:Sacramento
+Chicago:San Francisco
+Chicago:Los Angeles
+Los Angeles:New York
