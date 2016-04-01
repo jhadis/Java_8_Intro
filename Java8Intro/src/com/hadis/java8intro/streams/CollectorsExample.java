@@ -82,6 +82,7 @@ public class CollectorsExample {
                                 )
                         )
                 );
+
         System.out.println("Map of names by age: " +mapOfNamesByAge);
 
     }
