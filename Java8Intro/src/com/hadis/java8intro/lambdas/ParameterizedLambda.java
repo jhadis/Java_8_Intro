@@ -27,5 +27,15 @@ public class ParameterizedLambda {
 
         Comparator<Integer> intComp = (i1, i2) -> Integer.compare(i1, i2);
         Comparator<Integer> intComp2 = Integer::compare;
+
+        List<Integer> ints = Arrays.asList(4, 2, 8);
+        System.out.println("Unsorted"+ ints);
+        ints.sort(intComp);
+        System.out.println("Sorted"+ ints);
+
+        ints = Arrays.asList(4, 2, 8, 1);
+        System.out.println("Unsorted"+ ints);
+        ints.sort(intComp2);
+        System.out.println("Sorted"+ ints);
     }
 }
